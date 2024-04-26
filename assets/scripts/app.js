@@ -166,3 +166,32 @@ attackBtn.addEventListener('click', attackHandler);
 strongAttackBtn.addEventListener('click',strongAttackHandler);
 healBtn.addEventListener('click',healPlayerHandler);
 logBtn.addEventListener('click', printLogHandler);
+
+// simple exercise
+//1
+// const randomNumber = Math.random(); // produces random number between 0 (including) and 1 (excluding)
+// if (randomNumber > 0.7){
+//   alert("Greater than 0.7");
+// }
+// console.log(randomNumber);
+// //2
+// let array2 =[0.1 , 0.2 , 3, 5, 6, 7];
+// for (let i = 0 ; i < array2.length; i ++){
+//   console.log(array2[i]);
+// }
+// for (const el of array2){
+//   console.log(el);
+// }
+// //3
+// for (let i = array2.length ; i >= 0; i --){
+//   console.log(array2[i]);
+// }
+// //4
+// const randomNumber2 = Math.random(); // produces random number between 0 (including) and 1 (excluding)
+// if (randomNumber > 0.7 && randomNumber2 > 0.7){
+//   alert("Both are greater than 0.7");
+// }
+// else if (randomNumber < 0.2 || randomNumber2 < 0.2){
+//   alert("One is less than 0.2")
+// }
+// console.log(`${randomNumber} and ${randomNumber2}`)
